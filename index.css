@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* SUURIM */
+
+h1 {
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+.h1-black {
+    color: #000000;
+}
+.h1-white {
+    color: #ffffff;
+}
+
+/* PEALKIRI */
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+.h2-black {
+    color: #000000;
+}
+.h2-white {
+    color: #ffffff;
+}
+
+/* TEKST 30PX */
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.h3-black {
+    color: #000000;
+}
+.h3-white {
+    color: #ffffff;
+}
+
+/* TEKST 24PX */
+
+h4 {
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+.h4-black {
+    color: #000000;
+}
+.h4-white {
+    color: #ffffff;
+}
+
+/* TEKST 20PX */
+
+h5 {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+.h5-black {
+    color: #000000;
+}
+.h5-white {
+    color: #ffffff;
+}
+
+/* TEKST 18PX */
+
+h6 {
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+.h6-black {
+    color: #000000;
+}
+.h6-white {
+    color: #ffffff;
+}
+
+/* TEKST 14PX */
+
+h7 {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+.h7-black {
+    color: #000000;
+}
+.h7-white {
+    color: #ffffff;
+}
+
+
