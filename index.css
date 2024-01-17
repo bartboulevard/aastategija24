@@ -177,7 +177,7 @@ nav img {
     flex-wrap: wrap;
     align-content: center;
     margin: 0 20px;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 section div {
@@ -200,9 +200,10 @@ section h3 {
 }
 
 .baltic-games .img-basketball {
-    background-image: url('images/kalev1.png');
-    width: 344px;
-    height: 1344px;
+    width: 0;
+    height: 0;
+    transform: translateY(160px) translateX(30px);
+    z-index: 1;
 }
 
 /* SCHEDULE */
@@ -214,6 +215,8 @@ section h3 {
     background-image: url("images/thingy1.svg"), url("images/yeeet.svg");
     background-repeat: no-repeat;
     background-position: right, bottom left;
+    position: relative;
+    z-index: 2;
 
 }
 .schedule p {
@@ -239,6 +242,7 @@ section h3 {
     padding: 10px 15px;
     text-decoration: none;
     transition: 0.15s;
+    border-radius: 52px;
 }
 .schedule .schedule-nav h4 a {
     text-decoration: none;
@@ -299,6 +303,7 @@ section h3 {
 }
 .event2:hover {
     background-color: white;
+
 }
 .event2 h4 {
     margin: 5px;
@@ -316,6 +321,7 @@ section h3 {
 }
 .event3:hover {
     background-color: white;
+    font-weight: bold;
 }
 .event3 h4 {
     margin: 5px;
@@ -324,13 +330,21 @@ section h3 {
 /* -----about----- */
 
 .about {
+    position: relative;
     display: flex;
-    justify-content: space-around;
     align-items: stretch;
-    flex-wrap: wrap;
-    align-content: center;
+    background-image: url(images/võrkpallur.png), linear-gradient(to right, #EF4044 50%, transparent 50%);
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 200px, 100%;
+    height: 1024px;
     flex-direction: column;
-    background: linear-gradient(to right, #EF4044 50%, #FFFFFF 50%);
+
+}
+
+.about-btn {
+    cursor: pointer;
 }
 
 .about p {
@@ -338,28 +352,27 @@ section h3 {
     font-size: 500px;
     color: rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin: 0;
+    margin: -80px;
 }
 
 .container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: nowrap;
-    align-content: center;
-    margin: 0 20px;
+    align-content: flex-start;
+    margin: 0 -90px;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .selection {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-content: center;
-    margin: 0 20px;
+    margin: 0 150px;
     width: 500px;
+
 }
 
 .text {
@@ -372,6 +385,13 @@ section h3 {
     margin: 0 20px;
     width: 500px;
     font-size: 24px;
+}
+
+.text .text-text {
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+    background-color: transparent;
 }
 
 i {
@@ -393,25 +413,27 @@ i {
 }
 
 .img-volleyball {
-    background-image: url('images/võrkpallur.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 184px;
-    height: 568px;
+    width: 20px;
+    height: 20px;
     filter: grayscale(100%);
     align-self: center;
-    transform: scaleX(-1); /* Mirror the image horizontally */
+    transform: scaleX(-1) translateX(280px) translateY(-517px);
+}
+.img-volleyball img {
+    height: 568px;
 }
 
 /* -----sponsors----- */
 
 .sponsors {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
     flex-direction: column;
+    z-index: 3;
 }
 
 
@@ -433,7 +455,7 @@ i {
     align-items: center;
     flex-wrap: wrap;
     align-content: flex-start;
-    margin: 0 20px;
+    margin-top: 50px;
     flex-direction: column;
 }
 
@@ -443,10 +465,9 @@ footer .col-md-4 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    align-content: center;
     margin: 0 20px;
     width: 500px;
-
+    align-content: center;
 }
 
 .footer ul {
@@ -456,15 +477,17 @@ footer .col-md-4 {
 }
 
 .footer ul li {
-    margin-bottom: 10px;
+    margin-bottom: -20px;
 }
 
 .footer i {
-
-    font-size: 15px;
+position: absolute;
+    font-size: 20px;
     color: #ffffff;
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
+    margin-left: -50px;
+}
+.copyright {
+    margin-top: 50px;
+    font-weight: lighter;
 }
 
