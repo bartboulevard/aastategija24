@@ -4,6 +4,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 /* SUURIM */
@@ -196,11 +197,102 @@ section h3 {
     height: 1344px;
 }
 
+/* SCHEDULE */
 
+.schedule {
+    height: 1024px;
+    width: 100%;
+    background-color: #00B89D;
+    background-image: url("images/thingy1.svg"), url("images/yeeet.svg");
+    background-repeat: no-repeat;
+    background-position: right, bottom left;
+
+}
 .schedule p {
     font-weight: bold;
     font-size: 320px;
     color: rgba(0, 0, 0, 0.1);
     text-align: center;
     margin: 0;
+    padding: 0;
 }
+
+.schedule .schedule-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-bottom: 40px;
+}
+.schedule .schedule-nav h4 {
+    box-sizing: border-box;
+    margin: 0 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 0.15s;
+}
+.schedule .schedule-nav h4 a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+}
+.schedule .schedule-nav h4:hover {
+    background-color: transparent;
+    box-shadow: 0 0 0 2px white;
+    border-radius: 52px;
+}
+.schedule .oval {
+    width: 312px;
+    height: 631px;
+    background-color: #ffffff;
+    border-radius: 142px;
+    margin: 0 150px;
+    transform: translateY(-30px);
+}
+.schedule .oval img {
+    transform: translateX(-70px) translateY(-60px);
+
+}
+.schedule-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event1 {
+    border-radius: 10px;
+    padding: 2px 10px;
+    margin: 20px 0;
+    transition: 0.15s;
+}
+
+.event1:hover {
+    background-color: white;
+}
+.event1 h4 {
+    margin: 5px;
+}
+.april25 {
+    width: 779px;
+    height: 500px;
+}
+.april26 {
+    width: 779px;
+    height: 500px;
+    overflow: auto;
+}
+.event2 {
+    border-radius: 10px;
+    padding: 2px 10px;
+    margin: 20px 0;
+    transition: 0.15s;
+}
+.event2:hover {
+    background-color: white;
+}
+.event2 h4 {
+    margin: 5px;
+}
+
