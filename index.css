@@ -123,6 +123,14 @@ h7 {
 
 /* -----NAV----- */
 
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
 nav {
     width: 100%;
     display: flex;
@@ -294,5 +302,169 @@ section h3 {
 }
 .event2 h4 {
     margin: 5px;
+}
+.april27 {
+    width: 779px;
+    height: 500px;
+    overflow: auto;
+}
+.event3 {
+    border-radius: 10px;
+    padding: 2px 10px;
+    margin: 20px 0;
+    transition: 0.15s;
+}
+.event3:hover {
+    background-color: white;
+}
+.event3 h4 {
+    margin: 5px;
+}
+
+/* -----about----- */
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #EF4044 50%, #FFFFFF 50%);
+}
+
+.about p {
+    font-weight: bold;
+    font-size: 500px;
+    color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin: 0 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 20px;
+    width: 500px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 20px;
+    width: 500px;
+    font-size: 24px;
+}
+
+i {
+    font-size: 40px;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.fa-solid {
+    padding: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+
+.text {
+    background-color: white;
+    padding: 20px;
+}
+
+.img-volleyball {
+    background-image: url('images/võrkpallur.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 184px;
+    height: 568px;
+    filter: grayscale(100%);
+    align-self: center;
+    transform: scaleX(-1); /* Mirror the image horizontally */
+}
+
+/* -----sponsors----- */
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+/* -----footer----- */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    background-color: #000000;
+    color: white;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0 20px;
+    flex-direction: column;
+}
+
+footer .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 20px;
+    width: 500px;
+
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer i {
+
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
 }
 

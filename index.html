@@ -7,18 +7,18 @@
 </head>
 
 <body>
-<nav>
+<nav class="sticky">
     <div class="baltic-games-logo">
         <img src="/images/baltic.png" alt="Baltic Games logo">
     </div>
     <div class="nav-buttons">
-        <a class="h5-black" href="index.php">Baltic Games</a>
-        <a class="h5-black" href="index.php">Schedule</a>
-        <a class="h5-black" href="index.php">About</a>
-        <a class="h5-black" href="index.php">Sponsors</a>
+        <a class="h5-black" href="#baltic-games">Baltic Games</a>
+        <a class="h5-black" href="#schedule">Schedule</a>
+        <a class="h5-black" href="#about">About</a>
+        <a class="h5-black" href="#sponsors">Sponsors</a>
     </div>
 </nav>
-<section class="baltic-games">
+<section class="baltic-games" id="baltic-games">
     <div class="container1">
         <h2>25-27 April 20<span style="color: #00b89d">24</span></h2>
         <div class="compdate" id="compdate">
@@ -38,7 +38,7 @@
     </div>
     <!-- <div class="img-basketball"></div> -->
 </section>
-<section class="schedule">
+<section class="schedule" id="schedule">
     <p>Schedule</p>
     <div class="schedule-container">
         <div class="oval">
@@ -46,28 +46,17 @@
         </div>
         <div class="schedule-true">
             <div class="schedule-nav">
-                <h4><a href="#">April 25th</a></h4>
-                <h4><a href="#">April 26th</a></h4>
-                <h4><a href="#">April 27th</a></h4>
+                <h4><a href="#" id="btn-april25">April 25th</a></h4>
+                <h4><a href="#" id="btn-april26">April 26th</a></h4>
+                <h4><a href="#" id="btn-april27">April 27th</a></h4>
             </div>
-            <div class="april25">
-                <div class="event1">
-                    <h4 style="font-weight: bold">13.00 - 15.00: Arrival and accommodation <h4>@ Tartu Vocational College
-                        (Kopli 1, Tartu, C-korpus)</h4></h4>
-                </div>
-                <div class="event1">
-                    <h4 style="font-weight: bold">15.00 - 16.30: Lunch</h4>
-                </div>
-                <div class="event1">
-                    <h4 style="font-weight: bold">16.00 - 16.30: Delegation leaders meet and accreditation <h4>@ Tartu
-                        Vocational College</h4></h4>
-                </div>
-                <div class="event1">
-                    <h4 style="font-weight: bold">18.00 - 19.30: Opening ceremony <h4>@ Estonian national Museum (Muuseumi
-                        tee 2 Tartu)</h4></h4>
-                </div>
+            <div class="april25" id="april25" style="display: none">
+                <div class="event1"><h4 style="font-weight: bold">13.00 - 15.00: Arrival and accommodation <h4>@ Tartu Vocational College (Kopli 1, Tartu, C-korpus)</h4></h4></div>
+                <div class="event1"><h4 style="font-weight: bold">15.00 - 16.30: Lunch</h4></div>
+                <div class="event1"><h4 style="font-weight: bold">16.00 - 16.30: Delegation leaders meet and accreditation <h4>@ Tartu Vocational College</h4></h4></div>
+                <div class="event1"><h4 style="font-weight: bold">18.00 - 19.30: Opening ceremony <h4>@ Estonian national Museum (Muuseumi tee 2 Tartu)</h4></h4></div>
             </div>
-            <div class="april26">
+            <div class="april26" id="april26" style="display: none">
                 <div class="event2"><h4 style="font-weight: bold">7.00 - 9.30: Breakfast <h4>@ Tartu Vocational College</h4></h4></div>
                 <div class="event2"><h4 style="font-weight: bold">9.30 - 11.00: Volleyball EST - LAT <span style="font-style: italic">(young women)</span> <h4>@ Variku Sports hall (Aianduse 4 tartu)</h4></h4></div>
                 <div class="event2"><h4 style="font-weight: bold">9.30 - 11.00: Volleyball EST - LAT <span style="font-style: italic">(young men)</span> <h4>@ Variku Sports hall (Aianduse 4 tartu)</h4></h4></div>
@@ -89,9 +78,99 @@
                 <div class="event2"><h4 style="font-weight: bold">20.00: Awarding ceremony in headmasters competition</h4>
                     <h4>Socialization evening for students</h4></div>
             </div>
+            <div class="april27" id="april27">
+                <div class="event3"><h4 style="font-weight: bold">7.30 - 9.00: Breakfast <h4>@ Tartu Vocational College</h4></h4></div>
+                <div class="event3"><h4 style="font-weight: bold">9.00 - 10.00: Volleyball LIT - LAT <span style="font-style: italic">(young women)</span> <h4>@ Variku Sports hall (Aianduse 4 tartu)</h4></h4></div>
+                <div class="event3"><h4 style="font-weight: bold">9.00 - 10.30: Basketball LIT - LAT <span style="font-style: italic">(young men)</span> <h4>@ Variku Sports hall (Aianduse 4 tartu)</h4></h4></div>
+                <div class="event3"><h4 style="font-weight: bold">10.45 - 12.15: Volleyball LIT - LAT <span style="font-style: italic">(young men)</span> <h4>@ Variku Sports hall (Aianduse 4 tartu)</h4></h4></div>
+                <div class="event3"><h4 style="font-weight: bold">10.45 - 12.15: 3x3 basketball LAT - LIT <span style="font-style: italic">(young women)</span> <h4>@ Variku Sports hall (Aianduse 4 tartu)</h4></h4></div>
+                <div class="event3"><h4 style="font-weight: bold">11.30 - 12.00: 3x3 basketball LIT - LAT <span style="font-style: italic">(women)</span> <h4>@ Variku Sports hall (Aianduse 4 tartu)</h4></h4></div>
+                <div class="event3"><h4 style="font-weight: bold">12.15 - 12.45: 3x3 basketball LIT - LAT <span style="font-style: italic">(men)</span> <h4>@ Variku Sports hall (Aianduse 4 tartu)</h4></h4></div>
+                <div class="event3"><h4 style="font-weight: bold">12.30 - 14.0: Lunch<h4>@ Variku Sports hall (Aianduse 4 tartu)</h4></h4></div>
+                <div class="event3"><h4 style="font-weight: bold">14.00: Meeting of the heads of delegation - confirmation of the results<h4>@ Tartu Vocational College</h4></h4></div>
+                <div class="event3"><h4 style="font-weight: bold">14.30: Closing and awarding ceremony<h4>@ Tartu Vocational College</h4></h4></div>
+            </div>
         </div>
     </div>
 </section>
+<section class="about" id="about">
+    <p>About</p>
+    <div class="container">
+        <div class="selection">
+            <h2 id="our-mission">Our mission <i class="fa-solid fa-arrow-down"></i></h2>
+            <h2 id="winners">Winners <i class="fa-solid fa-arrow-left"></i></h2>
+            <h2 id="history">History <i class="fa-solid fa-arrow-left"></i></h2>
+        </div>
+        <div class="text">
+            <h4 id="mission-text">
+                The Baltic States - Estonian, Latvian and Lithuanian - sports games in vocational
+                education aim is to promote the growth of athletic results as well as to strengthen the
+                friendship between the young people, educators, educational institutions and the management.
+
+                Instructions for Baltic Games 2024-2027 can be found HERE
+            </h4>
+            <h4 id="winners-text" style="display: none;">
+                XX Tartu 17-19.05.2012 RESULTS
+                XXI Panevežnis 23-25.05.2013 RESULTS
+                XXII Smiltene 8-10.05.2014 RESULTS
+                XXIII Viljandi 23-25.05.2015 RESULTS
+                XXIV Kedainai 26-28.04.2016 RESULTS
+                XXV Jelgava 27-29.04.2017 RESULTS
+                XXVI Pärnu 26-28.04.2018 RESULTS
+                XXVII Kaunas 9-11.05.2019 RESULTS
+                XXVIII Ogre 27-29.04.2023 RESULTS
+
+            </h4>
+            <h4 id="history-text" style="display: none;">
+                “For some time I (I.Bukovska) had an idea about the necessity of Sports Games for
+                students and teachers involved vocational education in the Baltic States. After getting
+                acquainted with the representative of Estonian vocational education - a very athletic gentleman - I
+                thought to myself: "Now is the right time to start the negotiations ". The choice was right, the support
+                was received immediately. "If Tallinn does not involve after a few months (the games were in autumn of
+                the same year) then there are three educational institutions in Tartu and Estonia will have a teom",
+                summarizes Mr Sokman.”
+                Read more HERE.
+            </h4>
+
+            <div class="img-volleyball"></div>
+        </div>
+    </div>
+</section>
+<section class="sponsors" id="sponsors">
+    <div>
+        <img src="images/sponsors.png" alt="">
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <ul>
+                    <li><h4 style="padding-left: 25px"> Reg. number: 80110180</h4></li>
+                    <li><h4><i class="fa-solid fa-phone"></i>Telefon: +372 56 111 866</h4></li>
+                    <li><h4><i class="fa-solid fa-envelope"></i>E-post: tiit@ekksl.ee</h4></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li><h4><i class="fa-solid fa-house"></i>Aardla 23b, Tartu</h4></li>
+                    <li><h4><i class="fa-brands fa-skype"></i>Skype: EKKSL_EVSSF</h4></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4 style="padding-left: 25px">www.ekksl.ee </h4>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li><h4><i class="fa-solid fa-user"></i>Tiit Tammaru</h4></li>
+                    <li><h4 style="padding-left: 25px">Peasekretär/Secretary General</h4></li>
+                </ul>
+            </div>
+        </div>
+        <h4 class="copyright"> 2024 Estonian Vocational School Sport Federation NPO</h4>
+    </div>
+</footer>
 
 
 <!--
@@ -105,20 +184,86 @@
  -->
 </body>
 <script>
+
     const comptext = document.getElementById('comptext');
     const compdate = document.getElementById('compdate');
 
     comptext.style.display = 'none';
     compdate.style.display = 'block';
 
-
-    compdate.addEventListener('mouseover', (event) => {
+    compdate.addEventListener('mouseover', () => {
         compdate.style.display = 'none';
         comptext.style.display = 'block';
     });
-    comptext.addEventListener('mouseout', (event) => {
+
+    comptext.addEventListener('mouseout', () => {
         compdate.style.display = 'block';
         comptext.style.display = 'none';
     });
+
+
+    const missionText = document.getElementById('mission-text');
+    const winnersText = document.getElementById('winners-text');
+    const historyText = document.getElementById('history-text');
+
+    const mission = document.getElementById('our-mission');
+    const winners = document.getElementById('winners');
+    const history = document.getElementById('history');
+
+    const missionArrow = mission.querySelector('i');
+    const winnerArrow = winners.querySelector('i');
+    const historyArrow = history.querySelector('i');
+
+    // Initially show mission text
+    missionText.style.display = 'block';
+    winnersText.style.display = 'none';
+    historyText.style.display = 'none';
+
+    mission.addEventListener('click', () => {
+        resetArrows();
+        toggleArrow(missionArrow);
+        showText(missionText);
+    });
+
+    winners.addEventListener('click', () => {
+        resetArrows();
+        toggleArrow(winnerArrow);
+        showText(winnersText);
+    });
+
+    history.addEventListener('click', () => {
+        resetArrows();
+        toggleArrow(historyArrow);
+        showText(historyText);
+    });
+
+    function resetArrows() {
+        missionArrow.classList.remove('fa-arrow-down');
+        winnerArrow.classList.remove('fa-arrow-down');
+        historyArrow.classList.remove('fa-arrow-down');
+
+        missionArrow.classList.add('fa-arrow-left');
+        winnerArrow.classList.add('fa-arrow-left');
+        historyArrow.classList.add('fa-arrow-left');
+    }
+
+    function toggleArrow(arrow) {
+        if (arrow.classList.contains('fa-arrow-left')) {
+            arrow.classList.remove('fa-arrow-left');
+            arrow.classList.add('fa-arrow-down');
+        } else {
+            arrow.classList.remove('fa-arrow-down');
+            arrow.classList.add('fa-arrow-left');
+        }
+    }
+
+    function showText(textElement) {
+        missionText.style.display = 'none';
+        winnersText.style.display = 'none';
+        historyText.style.display = 'none';
+
+        textElement.style.display = 'block';
+    }
 </script>
+<script src="https://kit.fontawesome.com/be49346d7d.js" crossorigin="anonymous"></script>
 </html>
