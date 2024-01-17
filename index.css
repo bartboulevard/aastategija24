@@ -12,10 +12,14 @@ h1 {
     font-size: 72px;
     font-weight: bold;
     letter-spacing: 0;
+    margin-top: -30px;
+    margin-bottom: 0;
 }
+
 .h1-black {
     color: #000000;
 }
+
 .h1-white {
     color: #ffffff;
 }
@@ -27,9 +31,11 @@ h2 {
     font-weight: bold;
     letter-spacing: 0;
 }
+
 .h2-black {
     color: #000000;
 }
+
 .h2-white {
     color: #ffffff;
 }
@@ -41,9 +47,11 @@ h3 {
     font-weight: 600;
     letter-spacing: 0;
 }
+
 .h3-black {
     color: #000000;
 }
+
 .h3-white {
     color: #ffffff;
 }
@@ -55,9 +63,11 @@ h4 {
     font-weight: normal;
     letter-spacing: 0;
 }
+
 .h4-black {
     color: #000000;
 }
+
 .h4-white {
     color: #ffffff;
 }
@@ -69,9 +79,11 @@ h5 {
     font-weight: normal;
     letter-spacing: 0;
 }
+
 .h5-black {
     color: #000000;
 }
+
 .h5-white {
     color: #ffffff;
 }
@@ -83,9 +95,11 @@ h6 {
     font-weight: normal;
     letter-spacing: 0;
 }
+
 .h6-black {
     color: #000000;
 }
+
 .h6-white {
     color: #ffffff;
 }
@@ -97,11 +111,96 @@ h7 {
     font-weight: normal;
     letter-spacing: 0;
 }
+
 .h7-black {
     color: #000000;
 }
+
 .h7-white {
     color: #ffffff;
 }
 
+/* -----NAV----- */
 
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 200px;
+}
+
+nav .nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+nav div a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.15s;
+}
+
+nav div a:hover {
+    color: white;
+    background-color: #00b89d;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+nav img {
+    margin: 20px 20px;
+    width: 222px;
+}
+
+/* -----baltic games----- */
+
+.baltic-games {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 20px;
+    flex-direction: column;
+}
+
+section div {
+}
+
+section .compdate {
+    width: 590px;
+    height: 185px;
+
+}
+
+section .comptext {
+    width: 900px;
+    height: 185px;
+}
+
+section h3 {
+    width: 906px;
+    height: 420px;
+}
+
+.baltic-games .img-basketball {
+    background-image: url('images/kalev1.png');
+    width: 344px;
+    height: 1344px;
+}
+
+
+.schedule p {
+    font-weight: bold;
+    font-size: 320px;
+    color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0;
+}
